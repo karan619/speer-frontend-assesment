@@ -1,0 +1,16 @@
+.review__section-wrapper {
+  background-image: url("../images/story.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-section-heading {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

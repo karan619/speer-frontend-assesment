@@ -1,0 +1,72 @@
+.mainpage__wrapper {
+  background-image: url("../images/mainpage.jpg");
+  height: 1000px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mainpage__subwrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  top: 20%;
+}
+
+.mainpage__banner {
+  font-size: 45px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.mainpage__title {
+  font-size: 35px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.mainpage__subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+.mainpage__button {
+  background-color: rgba(167, 23, 30, 0.685);
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 15px 0;
+  margin-top: 20px;
+  width: 10rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 1s;
+}
+
+.mainpage__button:hover {
+  background-color: #da4357;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1140px) {
+  .mainpage__title {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .mainpage__title {
+    font-size: 25px;
+    text-align: center;
+  }
+  .mainpage__subtitle {
+    font-size: 0.7rem;
+  }
+}

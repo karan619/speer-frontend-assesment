@@ -1,0 +1,18 @@
+.slider__text {
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 991px) {
+  .slider__text {
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: 600;
+  }
+}

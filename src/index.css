@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media only screen and (max-width: 780px) {
+  body {
+    overflow-x: hidden;
+  }
+}
